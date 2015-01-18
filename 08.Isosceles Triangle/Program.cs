@@ -18,8 +18,7 @@ class Program
 
         Console.OutputEncoding = Encoding.UTF8;
         char symbol = '©';
-        Console.WriteLine("   {0}    \n\n  {1} {2}  \n\n {3}   {4} \n\n{5} {6} {7} {8}",
-            symbol, symbol, symbol, symbol, symbol, symbol, symbol, symbol, symbol);
+        Console.WriteLine("   {0}    \n\n  {0} {0}  \n\n {0}   {0} \n\n{0} {0} {0} {0}",symbol);
     }
 
 
