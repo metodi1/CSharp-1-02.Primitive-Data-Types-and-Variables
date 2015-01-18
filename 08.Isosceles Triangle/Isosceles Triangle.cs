@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 //ite a program that prints an isosceles triangle of 9 copyright symbols ©, something like this:
 //   ©
 //
