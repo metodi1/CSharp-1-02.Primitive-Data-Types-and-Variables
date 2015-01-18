@@ -10,7 +10,6 @@ namespace Problem_13.Comparing_Floats
         //numbers are equal if they are more closely to each other than a fixed constant eps.
 
         //Examples:
-
         //Number a	Number b	Equal (with precision eps=0.000001)	Explanation
         //5.3	6.01	false	The difference of 0.71 is too big (> eps)
         //5.00000001	5.00000003	true	The difference 0.00000002 < eps
@@ -20,6 +19,29 @@ namespace Problem_13.Comparing_Floats
         //4.999999	4.999998	false	Border case. The difference 0.000001 == eps. We consider the numbers are different.
         static void Main()
         {
+            //precision
+            double eps = 0.000001;
+
+            //Read numbers from console.
+            Console.WriteLine("Enter numberA:");
+            double numberA = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter numberB:");
+            double numberB = Convert.ToDouble(Console.ReadLine());
+
+            //The absolute value
+            double result = Math.Abs(numberA - numberB);
+
+            //compare the absolute value and eps. Printig the result.
+            if (result < eps)
+            {
+                Console.WriteLine("The numbers are equal");
+            }
+            else
+            {
+                Console.WriteLine("The numbers are different");
+            }
+            
+    
         }
     }
 }
