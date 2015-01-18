@@ -16,10 +16,7 @@
         int thirdVar = 4825932;
         byte fourthVar = 97;
         short fifthVar = -10000;
-        Console.WriteLine("Ushort variable: " + firstVar + "; \nsbyte variable: "
-                            + secondVar + "; \nint variable: "
-                            + thirdVar + "; \nbyte variable: "
-                            + fourthVar + "; \nshort variable: "
-                            + fifthVar);
+        Console.WriteLine("{0} is ushort,{1} is sbyte, {2} is int, {3} is byte, {4} is short", +
+            firstVar,secondVar,thirdVar,fourthVar,fifthVar);
         }
     }
