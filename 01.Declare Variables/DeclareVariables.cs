@@ -6,7 +6,7 @@
 //Submit the source code of your Visual Studio project as part of your homework submission.
 
 
-    class Program
+    class DeclareVariables
     {
         static void Main()
         {
