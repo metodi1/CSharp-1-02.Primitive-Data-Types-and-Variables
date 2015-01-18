@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 //A marketing company wants to keep record of its employees. 
 //Each record would have the following characteristics:
